@@ -1,0 +1,49 @@
+#top{
+    text-align: center;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(12, 51, 51);
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.header,#cricket{
+    width: 100%;
+    height: 5%;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #091c22;
+    color:#fff;
+    font-size: 20px;
+}
+.middle{
+    width: 100%;
+    height: 80%;
+    position: relative;
+    top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(12, 51, 51);
+    color: #fff;
+}
+.middle #middle{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.footer{
+    width: 100%;
+    height: 10%;
+    position: relative;
+    top: 200px;
+    background-color: rgb(12, 51, 51);
+    color: #fff;
+}

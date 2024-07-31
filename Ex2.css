@@ -1,0 +1,41 @@
+.table{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+table{
+    width: 50%;
+    height: 70%;
+    display: flex;
+   justify-content: center;
+   border:1px solid black;
+   
+}
+table tr,td{
+    border: 1px solid black;
+
+}
+table:hover{
+    background-color: red;
+    color: #fff;
+}
+.dis1{
+    visibility: hidden;
+    display: none;
+
+}
+.dis2{
+    visibility: collapse;
+    display: block;
+}
+.dis3{
+    visibility: visible;
+    display: inline;
+}
+.dis4{
+    visibility: initial;
+    display: inline-block;
+}

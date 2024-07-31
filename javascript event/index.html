@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: aquamarine;
+        }
+        .box button{
+            width: 20%;
+            height: 30px;
+            color: #fff;
+            background-color: rgb(18, 18, 32);
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        p{
+            text-align: center;
+            background-color: aqua;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <button id="btn">press to see current data and time</button>
+
+    </div>
+    <p id="date"></p>
+    
+    <script src="index.js"></script>
+</body>
+</html>

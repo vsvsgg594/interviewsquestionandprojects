@@ -1,0 +1,45 @@
+/* this is way to write comment in css */
+body{
+    width:100%;
+    height: 100vh;
+    background: url();
+}
+.div1{
+    width: 100%;
+    height: 20%;
+    background-color: red;
+    border: 2px solid pink;
+}
+.div2{
+    width: 100%;
+    height: 20%;
+    background-color: blueviolet;  border: 2px solid blue;
+}
+.div3{
+    width: 100%;
+    height: 20%;
+    background-color: blue;
+    border: 2px solid green;
+}
+.div4{
+    width: 100%;
+    height: 20%;
+    background-color: green;
+    border: 2px solid yellow;
+}
+
+.div5{
+    width: 100%;
+    height: 20%;
+    background-color: yellow;
+    border: 2px solid red;
+}
+h1{
+    font-size:30px;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    font-style: italic;
+    
+}

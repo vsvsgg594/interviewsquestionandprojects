@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+            padding: 20px;
+        }
+        .item {
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+        .item img {
+            max-width: 100%;
+            height: auto;
+        }
+        .item video {
+            max-width: 100%;
+            height: auto;
+        }
+        @media (min-width: 600px) {
+            .container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (min-width: 900px) {
+            .container {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            <h2>Image</h2>
+            <img src="https://via.placeholder.com/400" alt="Placeholder Image">
+        </div>
+        <div class="item">
+            <h2>Video</h2>
+            <video controls>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="item">
+            <h2>Text</h2>
+            <p>This is a sample text content.</p>
+        </div>
+    </div>
+</body>
+</html>
